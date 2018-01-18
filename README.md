@@ -6,8 +6,17 @@ Featuring:
 
 - [Rust](https://www.rust-lang.org/) + [Rocket](https://rocket.rs)
 - [React](https://reactjs.org/)
-- [Reason](https://reasonml.github.io/) + [ReasonReact](https://reasonml.github.io/reason-react/) for typesafe use of React
-- [Parcel](https://parceljs.org/) for bundling the frontend assets
+- [Reason](https://reasonml.github.io/) + [ReasonReact](https://reasonml.github.io/reason-react/)
+- [Parcel](https://parceljs.org/)
+
+### Reasoning
+
+This project was primarily created to combine some new technologies in order to see what a more complete project could look like and how the individual parts would work together. Specifics:
+
+- Rust: fast and safe code without garbage collection
+- Rocket: developer-focused conveniences over type safe code
+- Reason and ReasonReact: type safe interactions React and JavaScript
+- Parcel: frontend asset bundling with minimal configuration
 
 ## Requirements
 
