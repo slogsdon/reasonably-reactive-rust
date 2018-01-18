@@ -1,5 +1,7 @@
 # Reasonably Reactive Rust
 
+> Demo/starter project using Reason + React and Rust + Rocket
+
 Featuring:
 
 - [Rust](https://www.rust-lang.org/) + [Rocket](https://rocket.rs)
@@ -31,6 +33,14 @@ yarn develop
 yarn build
 cargo build --release
 ```
+
+The result can be started with:
+
+```
+ROCKET_ENV=production cargo run --release
+```
+
+or your preferred manner.
 
 ## Need a Reset?
 
