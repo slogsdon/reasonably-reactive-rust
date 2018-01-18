@@ -48,6 +48,17 @@ or your preferred manner.
 yarn clean
 ```
 
+## F.A.Q.
+
+<dl>
+  <dt>Parcel is too new/unproven and/or is missing <code>$FEATURE</code>. Can it be changed out for <code>$PREFERRED_BUNDLER</code>?</dt>
+  <dd>Parcel was specifically chosen for this purpose because it requires minimal configuration to get started. To swap it out, remove Parcel as a dependency (e.g. <code>yarn remove parcel-bundler</code>), add another bundler (e.g. <code>yarn add --dev $PREFERRED_BUNDLER</code>), and update the <code>scripts</code> in <code>package.json</code> to use that bundler.</dd>
+  <dt>Rust nightly changes too frequently. What now?</dt>
+  <dd>Rust stable will need to be setup as the default for the project (e.g. <code>rustup override set stable</code>). This would require a change from Rocket to something else. See below.</dd>
+  <dt>Rocket has too much magic. What are alternative options?</dt>
+  <dd><a href="http://www.arewewebyet.org/">Are we <em>web</em> yet?</a> has a list of potential alternatives. Once one has been selected, replace Rocket specific dependencies in <code>Cargo.toml</code> and code in <code>src</code> with <code>$PREFERRED_WEB_FRAMEWORK</code> related goodies.</dd>
+</dl>
+
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for more details.
