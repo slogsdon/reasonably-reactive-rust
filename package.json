@@ -1,7 +1,7 @@
 {
   "name": "reasonably-reactive-rust",
-  "version": "1.0.0",
-  "main": "index.js",
+  "private": true,
+  "version": "0.1.0",
   "author": "Shane Logsdon <shane@shanelogsdon.com>",
   "license": "MIT",
   "scripts": {
