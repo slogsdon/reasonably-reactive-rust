@@ -1,0 +1,22 @@
+##########
+# Rust
+##########
+
+# cargo generated
+/target/
+
+##########
+# Reason
+##########
+
+# npm dependencies
+/node_modules/
+
+# parcel generated
+/.cache/
+/static/
+
+# bsb generated
+/lib/
+**/*.bs.js
+.merlin

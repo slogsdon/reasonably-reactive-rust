@@ -1,0 +1,26 @@
+{
+  "name": "reasonably-reactive-rust",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Shane Logsdon <shane@shanelogsdon.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build -d static --public-url ./ web/index.html",
+    "clean": "rm -rf .cache static .merlin 3&& bsb -clean-world && cargo clean",
+    "develop": "yarn watch & cargo watch -x check -w src -s 'cargo run'",
+    "watch": "parcel watch -d static --public-url ./ web/index.html"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "@glennsl/bs-json": "^1.1.0",
+    "bs-config": "^0.1.6",
+    "bs-fetch": "^0.2.0",
+    "bsb-js": "^1.0.2",
+    "bs-platform": "^2.1.0",
+    "parcel-bundler": "^1.4.1",
+    "reason-react": "^0.3.1"
+  }
+}
