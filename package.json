@@ -5,10 +5,10 @@
   "author": "Shane Logsdon <shane@shanelogsdon.com>",
   "license": "MIT",
   "scripts": {
-    "build": "parcel build -d static --public-url ./ web/index.html",
+    "build": "parcel build -d static --public-url / web/index.html",
     "clean": "rm -rf .cache static .merlin 3&& bsb -clean-world && cargo clean",
     "develop": "yarn watch & cargo watch -x check -w src -s 'cargo run'",
-    "watch": "parcel watch -d static --public-url ./ web/index.html"
+    "watch": "parcel watch -d static --public-url / web/index.html"
   },
   "dependencies": {
     "react": "^16.2.0",
