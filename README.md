@@ -4,27 +4,27 @@
 
 Featuring:
 
-- [Rust](https://www.rust-lang.org/) + [Rocket](https://rocket.rs)
-- [React](https://reactjs.org/)
-- [Reason](https://reasonml.github.io/) + [ReasonReact](https://reasonml.github.io/reason-react/)
-- [Parcel](https://parceljs.org/)
+* [Rust](https://www.rust-lang.org/) + [Rocket](https://rocket.rs)
+* [React](https://reactjs.org/)
+* [Reason](https://reasonml.github.io/) + [ReasonReact](https://reasonml.github.io/reason-react/)
+* [Parcel](https://parceljs.org/)
 
 ### Reasoning
 
 This project was primarily created to combine some new technologies in order to see what a more complete project could look like and how the individual parts would work together. Specifics:
 
-- Rust: fast and safe code without garbage collection
-- Rocket: developer-focused conveniences over type safe code
-- Reason and ReasonReact: type safe interactions React and JavaScript
-- Parcel: frontend asset bundling with minimal configuration
+* Rust: fast and safe code without garbage collection
+* Rocket: developer-focused conveniences over type safe code
+* Reason and ReasonReact: type safe interactions React and JavaScript
+* Parcel: frontend asset bundling with minimal configuration
 
 ## Requirements
 
-- [Node.js](https://nodejs.org/)
-- [Yarn](https://yarnpkg.com/docs/install/) or [npm](https://docs.npmjs.com/getting-started/installing-node)
-- [Reason](https://reasonml.github.io/docs/global-installation.html)
-- [Rust nightly](https://www.rust-lang.org/install.html)
-- [`cargo-watch`](https://github.com/passcod/cargo-watch) if you want to use the `yarn develop` script
+* [Node.js](https://nodejs.org/)
+* [Yarn](https://yarnpkg.com/docs/install/) or [npm](https://docs.npmjs.com/getting-started/installing-node)
+* [Reason](https://reasonml.github.io/docs/global-installation.html)
+* [Rust nightly](https://www.rust-lang.org/install.html)
+* [`cargo-watch`](https://github.com/passcod/cargo-watch) if you want to use the `yarn develop` script
 
 ## Getting Started
 
