@@ -68,6 +68,11 @@ let make = (~message, _children) => {
             <ItemList items=self.state.items />;
           }
         )
+        <p>
+          <Link to_="/about">
+            (ReasonReact.stringToElement("About"))
+          </Link>
+        </p>
       </div>
   };
 };
