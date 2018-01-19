@@ -69,9 +69,7 @@ let make = (~message, _children) => {
           }
         )
         <p>
-          <Link to_="/about">
-            (ReasonReact.stringToElement("About"))
-          </Link>
+          <Link to_="/about"> (ReasonReact.stringToElement("About")) </Link>
         </p>
       </div>
   };

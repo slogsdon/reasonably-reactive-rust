@@ -1,12 +1,14 @@
 let component = ReasonReact.statelessComponent("AppLayout");
+
 let make = (~route, _children) => {
   ...component,
-  render: (_self) => {
+  render: _self =>
     <div>
-      (switch (route) {
+      (
+        switch route {
         | Routing.Home => <IndexPage message="Hello!" />
         | Routing.About => <AboutPage />
-      })
+        }
+      )
     </div>
-  }
 };

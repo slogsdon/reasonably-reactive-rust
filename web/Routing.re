@@ -1,3 +1,3 @@
 type route =
-| Home
-| About;
+  | Home
+  | About;
