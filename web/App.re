@@ -5,7 +5,8 @@ let _ =
   ReasonReact.Router.watchUrl(url =>
     switch url.path {
     | ["about"] => render(Routing.About)
-    | _ => render(Routing.Home)
+    | [] => render(Routing.Home)
+    | path => render(Routing.NotFound(path))
     }
   );
 

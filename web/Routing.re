@@ -1,3 +1,4 @@
 type route =
   | Home
-  | About;
+  | About
+  | NotFound(list(string));

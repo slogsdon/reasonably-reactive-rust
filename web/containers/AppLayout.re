@@ -8,6 +8,7 @@ let make = (~route, _children) => {
         switch route {
         | Routing.Home => <IndexPage message="Hello!" />
         | Routing.About => <AboutPage />
+        | Routing.NotFound(path) => <NotFoundPage path />
         }
       )
     </div>
