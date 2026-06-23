@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^19.2.7"
   },
   "devDependencies": {
     "@glennsl/bs-json": "^1.1.0",
@@ -21,7 +21,7 @@
     "bs-fetch": "^0.2.0",
     "bsb-js": "^1.0.2",
     "bs-platform": "^2.1.0",
-    "parcel-bundler": "^1.4.1",
+    "parcel-bundler": "^1.12.5",
     "reason-react": "^0.3.1"
   }
 }
